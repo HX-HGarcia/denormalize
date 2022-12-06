@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recursive.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-spies": "^1.0.0",
+    "jest": "^29.3.1"
+  }
+}
