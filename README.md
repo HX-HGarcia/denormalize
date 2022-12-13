@@ -1,4 +1,5 @@
 
+![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # Denormalize
 
@@ -11,7 +12,7 @@
 
 ### Consigna
 
-#### Crea una funcion "denormalize" que dados dos arreglos y una foreign key " [users] , [orders] , 'userId' ", debe mergear el arreglo de ordenes dentro del de usuarios, de tal manera que cada usuario tenga una propiedad "ordenes" donde encontraremos un arreglo con los objetos de cada una.
+#### Crea una funcion "denormalize" que reciba dos arreglos y una foreign key " [users] , [orders] , 'userId' ", debe mergear el arreglo de ordenes dentro del arreglo de usuarios, de tal manera que cada usuario tenga una propiedad "ordenes" donde encontraremos un arreglo con los objetos de cada una.
 #### Nota: Los objetos de cada "orden" NO pueden mantener la propiedad userId que tenían.
 
 #

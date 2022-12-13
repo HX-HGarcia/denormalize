@@ -1,7 +1,5 @@
-const { users, orders } = require('./data');
-
-function normalize(people, purchases) {
+function denormalize(people, purchases) {
   // code here:
 }
 
-module.exports = normalize;
+module.exports = denormalize;
