@@ -9,9 +9,7 @@ The 'normalize' function will receive 2 parameters.
 The normalize recursive function must  merge the two arrays into one, in such a way that we obtain an array of users
 with an attribute "orders", where all the orders belonging to that user will be found. 
 
-The way we identify an order for a user is by its order attribute "userId".
-
-*/
+The way we identify an order for a user is by its order attribute "userId" */
 
 function normalize(people, purchases) {
   // code here:
